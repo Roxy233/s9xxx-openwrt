@@ -21,7 +21,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "s905d"
         type: choice
         options:
           - all
@@ -240,20 +240,11 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.12.y_6.18.y"
+        default: "5.15.y"
         type: choice
         options:
           - 5.10.y
           - 5.15.y
-          - 6.1.y
-          - 6.6.y
-          - 6.12.y
-          - 6.18.y
-          - 5.10.y_5.15.y
-          - 6.1.y_6.6.y
-          - 6.12.y_6.18.y
-          - 6.1.y_6.12.y
-          - 6.1.y_6.18.y
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
