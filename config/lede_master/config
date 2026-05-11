@@ -2733,6 +2733,8 @@ CONFIG_PACKAGE_kmod-vmxnet3=y
 # CONFIG_PACKAGE_kmod-9pvirtio is not set
 # CONFIG_PACKAGE_kmod-atm is not set
 # CONFIG_PACKAGE_kmod-ax25 is not set
+CONFIG_PACKAGE_kmod-8021q=y
+CONFIG_PACKAGE_kmod-vlan=y
 CONFIG_PACKAGE_kmod-batman-adv=y
 CONFIG_BATMAN_ADV_BATMAN_V=y
 CONFIG_BATMAN_ADV_BLA=y
